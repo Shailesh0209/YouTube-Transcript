@@ -2,6 +2,7 @@ import streamlit as st
 import whisper
 import os
 import yt_dlp
+import csv  # Import the csv module
 
 # Function to download audio from YouTube
 def download_youtube_audio(url, output_path="audio_files"):
@@ -28,7 +29,7 @@ def download_youtube_audio(url, output_path="audio_files"):
 # Function to transcribe audio using Whisper
 def transcribe_audio(audio_file, language_code="en"):
     try:
-        model = whisper.load_model("large")  # Load Whisper model
+        model = whisper.load_model("turbo")  # Load Whisper model
         result = model.transcribe(audio_file, language=language_code)
         return result  # Returns transcription result including segments
     except Exception as e:
