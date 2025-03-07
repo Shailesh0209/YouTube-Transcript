@@ -2,7 +2,8 @@
 
 A Streamlit application for batch transcribing YouTube videos from a list of video IDs, with support for Indian languages.
 
-![Streamlit App Screenshot](https://via.placeholder.com/800x400?text=YouTube+Video+Transcriber)
+![Streamlit App Screenshot-2](Trnascribe-2.jpg)
+![Streamlit App Screenshot](./Transcribe-whole-Channel-1.jpg)
 
 ## Features
 
